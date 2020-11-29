@@ -53,7 +53,7 @@ while True:
     while True:
         t1 = datetime.now().strftime(("%H"))
 #           run script only between these times (8am and 8pm shown), comment it out to run all the time.
-        if (int(t1)) > 8 and (int(t1)) < 20:
+        if (int(t1)) >= 8 and (int(t1)) <= 20:
             print(str('Stock Price 1 - {:0.2f}'.format(stock_price1)))
             time.sleep(wait)
 #            uncomment line below for testing only!
