@@ -27,13 +27,11 @@ percent_decrease = 1 - (percent/100)
 wait = minutes_in_between_checks * 60
 
 while True:
-#   
-#    if (int(t1)) > 8 and (int(t1)) < 20:
 #        Add more ticker symbols here: images have to be 60x60 px, 72px resolution:
     if tSymbol == ('tsla'):
         brand = ('Tesla')
         symbol = ('symbols/tsla.jpg')
-#            stock_price1=100
+#        stock_price1=100
 #            This grabs the stock price at the first run of the script, so percentage changes are referenced from the start rather than between each checking period.
         stock_price1=stock_info.get_live_price(tSymbol)
 
