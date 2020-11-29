@@ -2,7 +2,7 @@
 
 When the script is run from the command line, you are prompted to enter the ticker symbol you would like the alerts for, the minimum percentage change you want to be notified of and the intervals between checks in minutes.
 
-The script will then run between the hours of 8am to 8pm (local time) to avoid disturbing you during the night. This can be edited within the script on line 33.
+The script will then run between the hours of 8am to 8pm (local time) to avoid disturbing you during the night. This can be edited within the script on line 56.
 
 You can also add more ticker symbols as required.
 
