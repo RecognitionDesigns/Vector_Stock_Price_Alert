@@ -8,6 +8,6 @@ You can also add more ticker symbols as required.
 
 The script is designed to run in the background so you may want to comment out the lines that print to the command line as they will start building up after while.
 
-Please feel free to improve upon my script and give me any suggestions to streamline it! I'm sure thers plenty of ways to achieve the same in a more efficient manner!
+Please feel free to improve upon my script and give me any suggestions to streamline it! I'm sure there are plenty of ways to achieve the same in a more efficient manner!
 
 Thank you!
